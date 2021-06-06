@@ -116,4 +116,30 @@ article{
         
 
 }
+.crtf video{
+    
+    padding-top: 50px;
+    margin-right: 300px;
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+.crtf article{
+    
+    transform: translate(200px,-80px);
+    color: white;
+    width: 500px;
+    line-height: 40px;
+    padding: 200px 100px 0px ;
+    
+}
+.crtf h2{
+   
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(148, 138, 138)
+}
+.crtf article p{
+    font-size: 30px;
+}
 
