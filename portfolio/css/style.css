@@ -14,8 +14,8 @@ html{
     width: 100%;
 }        
     
-h1{
-    padding: 300px 0px 0px 50px;
+.home h1{
+    padding: 300px 50px 0px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 85px;
     line-height: 75px;
@@ -88,6 +88,7 @@ article{
     padding: 100px 0px 0px;
     font-size: 70px;
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(148, 138, 138);
 }
 #crtfct{
     background-image: url(../images/adam-birkett-_IrFSypwykg-unsplash.jpg);
@@ -99,6 +100,7 @@ article{
     padding: 100px 50px 0px;
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(148, 138, 138);
 }
 .crtf a{
     text-decoration: none;
@@ -113,5 +115,31 @@ article{
         border-bottom-left-radius: 25%;
         
 
+}
+.crtf video{
+    
+    padding-top: 50px;
+    margin-right: 300px;
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+.crtf article{
+    
+    transform: translate(200px,-80px);
+    color: white;
+    width: 500px;
+    line-height: 40px;
+    padding: 200px 100px 0px ;
+    
+}
+.crtf h2{
+   
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(148, 138, 138)
+}
+.crtf article p{
+    font-size: 30px;
 }
 
