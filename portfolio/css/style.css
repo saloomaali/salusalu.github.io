@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#main{
+    background-image: url(../images/bk.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}        
+    
+h1{
+    padding: 300px 0px 0px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 85px;
+    line-height: 75px;
+    color: rgb(148, 138, 138);
+}
+ ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 30px;
+    display: inline-block;
+} ul li{
+        display: inline-block;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+ ul li a{
+        text-decoration: none;
+        padding: 5px 10px 0px;
+        margin-right: 20px;
+        color: white;
+    }
+ ul li a:hover{
+    display: inline-block;
+    border: solid white;
+    border-radius: 35%;
+    padding-top: 2px;
+
+}
+#about{
+    background-image: url(../images/about.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    padding: 150px 80px 0px ;
+    width: 500px;
+    float: right;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+    
+}
+article{
+    color: white;
+    width: 500px;
+    line-height: 40px;
+    padding: 200px 100px 0px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contact{
+    background-image: url(../images/contct.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.cont{
+    
+  position: absolute;
+  padding: 70px 50px 0px;
+  transform: translate(150px);
+  color:rgb(148, 138, 138);
+}
+.cont a{
+    color:white;
+    font-size: 4vh;
+}
+.cont h1{
+    padding: 100px 0px 0px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#crtfct{
+    background-image: url(../images/adam-birkett-_IrFSypwykg-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;   
+}
+.crtf h1{
+    padding: 100px 50px 0px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.crtf a{
+    text-decoration: none;
+    
+        padding: 5px 10px 5px;
+        margin-left: 200px;
+        color: white;
+        border: solid white;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        
+
+}
+
