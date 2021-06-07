@@ -80,9 +80,14 @@ article{
   transform: translate(150px);
   color:rgb(148, 138, 138);
 }
-.cont a{
+.cont ul{
+    list-style-type: none;
+    display: block;
+}
+.cont ul a{
     color:white;
     font-size: 4vh;
+    text-decoration: none;
 }
 .cont h1{
     padding: 100px 0px 0px;
