@@ -113,6 +113,10 @@ article{
         
 
 }
+.crtf a:hover{
+    background-color: white;
+    color: black;
+}
 .crtf video{
     
     padding-top: 50px;
